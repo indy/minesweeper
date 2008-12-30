@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>mine-sweeper</title>
+<script type="text/javascript" src="javascript/utils.js"></script>
+<script type="text/javascript" src="javascript/newcellNode.js"></script>
+<script type="text/javascript" src="javascript/newboard.js"></script>
+<script type="text/javascript" language="JavaScript">
+
+  window.onload=init;
+
+  function init() {
+
+
+  var b = new Board();
+  b.setup(5, 5, 0);
+
+  b.probeAddMine(0, 0);
+  b.uncoverCell(4, 4);
+
+  var foo = b.probeUncoveredScan();
+
+  var bar = 1;
+  var temp = bar + foo;
+
+  }
+
+</script>
+
+
+<link rel="stylesheet" href="stylesheets/style.css" type="text/css" media="screen" />
+</head>
+<body>
+<h1>Mine Sweeper Scratch</h1>
+
+
+</body>
+</html>

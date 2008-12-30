@@ -1,0 +1,65 @@
+<html>
+<head>
+<title>mine-sweeper</title>
+<script type="text/javascript" src="javascript/utils.js"></script>
+<script type="text/javascript" src="javascript/newboard.js"></script>
+<script type="text/javascript" src="javascript/newCellNode.js"></script>
+<script type="text/javascript" src="javascript/script.js"></script>
+<link rel="stylesheet" href="stylesheets/style.css" type="text/css" media="screen" />
+</head>
+<body>
+<h1>Mine Sweeper</h1>
+
+<div>
+<p id="testtest">testclone</p>
+<p id="hide-click">Click Here</p>
+</div>
+
+
+<table id="game-display">
+  <tr>
+    <td>
+      <table id="dynamic-board"></table>
+    </td>
+    <td>
+      <p>Flags remaining</p>
+      <div id="flags-remaining">
+      </div>
+    </td>
+  </tr>
+</table>
+
+<div id="game-setup">
+  <p id="continue-game">continue existing game</p>
+  <form name="gameSettings">
+    Width: <input type="text" name="width" value="10"/><br/>
+    Height: <input type="text" name="height" value="10"/><br/>
+    Mines: <input type="text" name="mines" value="5"/><br/>
+  </form>
+  <p id="start-new-game">start new game</p>
+</div>
+
+<div id="tiles">
+  <img src="images/empty.png" id="tile-empty"/>
+  <img src="images/flag.png" id="tile-flag"/>
+  <img src="images/mine.png" id="tile-mine"/>
+  <img src="images/zero.png" id="tile-zero"/>
+  <img src="images/one.png" id="tile-one"/>
+  <img src="images/two.png" id="tile-two"/>
+  <img src="images/three.png" id="tile-three"/>
+  <img src="images/four.png" id="tile-four"/>
+  <img src="images/five.png" id="tile-five"/>
+  <img src="images/six.png" id="tile-six"/>
+  <img src="images/seven.png" id="tile-seven"/>
+  <img src="images/eight.png" id="tile-eight"/>
+</div>
+
+<div id="tile-dest">
+  <img src="images/empty.png"/>  
+</div>
+
+<address>
+<a href="mailto:IGill@TADEDSUITE001"></a>
+</address>
+</body>
+</html>

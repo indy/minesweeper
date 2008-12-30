@@ -1,0 +1,32 @@
+
+#dynamic-board { 
+  background: red;
+}
+
+#dynamic-board td { 
+  width: 20px;
+  height: 20px;
+  background: yellow;
+}
+
+.selected-square { 
+  width: 30px;
+  height: 30px;
+  background: blue;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+#drag_from { 
+  background: red;
+}
+
+#drag_to { 
+  background: blue;
+}
